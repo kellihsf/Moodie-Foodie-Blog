@@ -21,6 +21,7 @@ const Create = () => {
       }).then(() => {
           console.log('new blog added')
           setIsPending = (false)
+          // this redirects user to homepage
           history.push('/')
       })
   }
@@ -49,8 +50,7 @@ const Create = () => {
           <option value="Kelli">Kelli</option>
           <option value="Izzie">Izzie</option>
         </select>
-       { !isPending && <button>Add Blog</button> }
-       { isPending && <button disabled>Adding blog...</button>}
+       <button>Add Blog</button>
 
       </form>
     </div>
