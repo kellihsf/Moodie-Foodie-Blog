@@ -1,17 +1,22 @@
 {
-    "blogs" : [
-        {
-            "title": "My first Blog",
-            "body": "These are words for the blog.",
-            "author": "Kelli",
-            "id": 1
-        },
-
-        {
-            "title": "The next blog",
-            "body": "These are words for the blog, the next blog not the first one.",
-            "author": "Izzie",
-            "id": 2
-        }
-    ]
+  "blogs": [
+    {
+      "title": "My first Blog",
+      "body": "These are words for the blog.",
+      "author": "Kelli",
+      "id": 1
+    },
+    {
+      "title": "The next blog",
+      "body": "These are words for the blog, the next blog not the first one.",
+      "author": "Izzie",
+      "id": 2
+    },
+    {
+      "title": "Test blog",
+      "body": "these are words",
+      "author": "kelli",
+      "id": 3
+    }
+  ]
 }
